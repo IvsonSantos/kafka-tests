@@ -1,8 +1,13 @@
-package com.example.kafka.config;
+package com.example.kafka.service;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+/**
+ * sends the messages to the Kafka topic of the Spring application
+ */
+@Slf4j
 @Service
 public class KafkaProducerService {
 

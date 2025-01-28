@@ -1,8 +1,11 @@
-package com.example.kafka.config;
+package com.example.kafka.service;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
+/**
+ * consumes the messages from the Kafka topic of the Spring application
+ */
 @Service
 public class KafkaConsumerService {
 
