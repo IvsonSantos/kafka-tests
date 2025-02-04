@@ -25,4 +25,11 @@ LIST TOPICOS
   ./kafka-topics.sh --list --bootstrap-server localhost:9092
       ou
   ./kafka-topics.sh --describe --bootstrap-server localhost:9092
-``
+
+
+
+DOCKER
+
+docker build . -t text-producer
+
+docker run -it -p 8080:8080 text-producer
